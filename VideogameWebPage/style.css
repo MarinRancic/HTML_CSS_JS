@@ -1,0 +1,339 @@
+.watch:hover {
+	transform: scale(1.05);
+	transition: transform .2s;
+	color: steelblue;
+}
+
+.row {
+	width: 86%;
+	margin: auto;
+}
+
+a:link {
+	text-decoration: none;
+	color: grey;
+}
+
+a:visited {
+	color: gray;
+}
+
+.donji {
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.E-sports {
+	width: 100%;
+}
+
+.image-fit {
+	height: 770px;
+	background-image: url("Images/naslovna.jpg");
+	background-size: cover;
+}
+
+#header {
+	background: rgba(0, 0, 0, 0.975);
+	color: #a6a6a6;
+	cursor: default;
+	height: 1.25em;
+	left: 0;
+	line-height: 1.75em;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 100%;
+	z-index: 10001;
+}
+
+.topnav {
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnav a {
+	border: 1px solid rgba(255,250,250,0.25);
+	padding: 0 8px;
+	margin: 10px 4px;
+	border-radius: 3px;
+	float: right;
+	color: steelblue;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	display: inline-block;
+}
+
+.topnav a:hover {
+	background-color: steelblue;
+	color: black;
+}
+
+button:hover {
+	background-color: steelblue;
+	color: black;
+}
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 1rem 0 0;
+}
+
+ul.icons li:last-child {
+	padding-right: 0;
+}
+
+footer {
+	padding: 2rem 2 1rem 2;
+	background: black;
+	text-align: center;
+}
+
+#footer a {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#footer a:hover {
+	color: steelblue;
+}
+
+@media screen and (max-width: 1680px) {
+	html {
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	html {
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	html {
+		font-size: 12pt;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	html {
+		font-size: 12pt;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 12pt;
+	}
+}
+
+body,
+input,
+select,
+textarea {
+	font-family: Futura Book;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.65;
+}
+
+p {
+	margin: 0 0 2rem 0;
+}
+
+h2 {
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0 0 1rem 0;
+	font-size: 1.75rem;
+	color: white;
+}
+
+.align-center {
+	text-align: center;
+}
+
+#sidriste {
+	text-align: center;
+	font-family: Futura Book;
+	font-size: 20px;
+}
+
+body {
+	background-image: url("Images/pozadina.png");
+	color: grey;
+}
+
+
+.button_1 {
+	border: 1px solid rgba(255,250,250,0.25);
+	padding: 5px 8px;
+	margin: 10px 4px;
+	border-radius: 3px;
+	background-color: black;
+	color: steelblue;
+	cursor: pointer;
+	width: 100%;
+	opacity: 1.2;
+	font-size: 16px;
+}
+
+button {
+	font-family: Futura Book;
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	margin: 5px 0px;
+	border: 1px solid rgba(255,250,250,0.25);
+	border-radius: 3px;
+	width: 15%;
+	opacity: 1.2;
+	font-size: 16px;
+	text-align: center;
+}
+
+.container1 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 33px;
+	padding-right: 33px;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.modal-content {
+	background-color: black;
+	margin: 5% auto 15% auto;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+	opacity: 0.85;
+}
+
+.close {
+	z-index: 2;
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+	color: white;
+	cursor: pointer;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 1680px) {
+	.container.\31 25\25 {
+		width: 100%;
+		max-width: 100rem;
+		min-width: 80rem;
+	}
+
+	.container.\37 5\25 {
+		width: 60rem;
+	}
+
+	.container.\35 0\25 {
+		width: 40rem;
+	}
+
+	.container.\32 5\25 {
+		width: 20rem;
+	}
+
+	.container {
+		width: 80rem;
+	}
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: black;
+	weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 10px;
+}
+
+.question {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.answers {
+	margin-bottom: 15px;
+	text-align: left;
+	display: inline-block;
+}
+
+.answers label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.slide {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.active-slide {
+	opacity: 1;
+	z-index: 2;
+}
+
+.quiz-container {
+	position: relative;
+	height: 200px;
+	margin-top: 40px;
+}
